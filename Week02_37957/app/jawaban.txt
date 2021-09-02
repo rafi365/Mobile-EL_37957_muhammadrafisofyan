@@ -1,0 +1,11 @@
+a. Kosongkan Angka 1 dan Angka 2, lalu klik salah satu button
+        muncul error java.lang.NumberFormatException: empty String
+        error ini terjadi karena input tidak di isi data
+        cara memperbaikinya adalah dengan menggunakan try catch dan mendisplay text "ERROR" pada hasil jika error ini muncul
+b. Kosongkan Angka 2, lalu klik button Bagi.
+        muncul error java.lang.NumberFormatException: empty String
+        error ini terjadi karena input tidak di isi data
+        cara memperbaikinya adalah dengan menggunakan try catch dan mendisplay text "ERROR" pada hasil jika error ini muncul
+c. Isi 0 (nol) pada Agka 2, lalu klik button Bagi.
+        muncul tulisan infinty di hasil kalkulasi dikarenakan divide by zero
+        cara memperbaikinya adalah mengecek apakah angka2 == 0 sebelum membagi
